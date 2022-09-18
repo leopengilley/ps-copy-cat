@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+header {
+  width: 100%;
+  border-bottom: 5px solid #5ebe92;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 30%;
+}
+
+h1 {
+  font-size: 4em;
+  width: 60%;
+}
+
+h4 {
+  text-decoration-line: underline;
+  font-size: 1.7em;
+  width: 60%;
+}
+
+h5 {
+  color: #4F4F4F;
+  font-size: 1.4em;
+  width: 60%;
+}
+
+nav {
+  width: 40%;
+}
+
+main {
+  padding-top: 3%;
+  font: 18px/2 serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: arial;
+}
+
+main article {
+  width: 80%;
+}
+
+main aside {
+  font-size: 1.3em;
+  color: #79CDAC;
+  box-shadow: inset 0 1.5px 0 #79CDAC,inset 0 -1.5px 0 #79CDAC;
+  width: 15%;
+  height: 30%;
+  margin: 0 60px;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    width: 80%;
+  }
+
+  h1, h4, h5, nav {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  main aside, main article {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2.7em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  main aside {
+    font-size: 1em;
+  }
+}

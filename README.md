@@ -16,5 +16,3 @@ and some of the barriers are ones that developers can easily remove.
 # Tech Framework Used
 - HTML
 - CSS
-
-# Assumptions

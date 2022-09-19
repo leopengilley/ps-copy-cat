@@ -10,9 +10,6 @@ As technology becomes a vital part in individual's lives some are being left
 behind. People with a disability have less access to technology compared to those without
 and some of the barriers are ones that developers can easily remove.
 
-# Screenshot
-![screenshot](when-frontend-means-fullstack.png)
-
 # Tech Framework Used
 - HTML
 - CSS

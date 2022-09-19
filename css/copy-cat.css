@@ -6,6 +6,7 @@ body {
   background-color: #f2f2f2;
 }
 
+/* Header */
 header {
   width: 100%;
   border-bottom: 5px solid #5ebe92;
@@ -13,12 +14,13 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-  height: 30%;
+  padding-bottom: 2%;
 }
 
 h1 {
   font-size: 4em;
   width: 60%;
+  margin: 0 0;
 }
 
 h4 {
@@ -35,9 +37,9 @@ h5 {
 
 nav {
   width: 40%;
-
 }
 
+/* Main */
 main {
   padding-top: 3%;
   font: 18px/2 serif;
@@ -61,6 +63,8 @@ main aside {
   padding: 20px 0;
 }
 
+/* Media Queries */
+/* All components and tags are now stacked in a column */
 @media screen and (max-width: 1300px) {
   body {
     width: 80%;
@@ -79,6 +83,7 @@ main aside {
   }
 }
 
+/* Font-size adjustments */
 @media screen and (max-width: 760px) {
   h1 {
     font-size: 2.7em;

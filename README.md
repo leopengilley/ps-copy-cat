@@ -9,4 +9,4 @@ behind. People with a disability have less access to technology compared to thos
 and some of the barriers are ones that developers can easily remove.
 
 # Screenshot
-![screenshot](when-front-end-means-fullstack.png)
+![screenshot](when-frontend-means-fullstack.png)

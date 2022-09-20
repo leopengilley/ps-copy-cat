@@ -11,8 +11,9 @@ behind. People with a disability have less access to technology compared to thos
 and some of the barriers are ones that developers can easily remove.
 
 # Tech Framework Used
-- HTML
+- Semantic HTML for accessibility
 - CSS
+- Flexbox for layout
 
 # Browsers Tested
 - Firefox
